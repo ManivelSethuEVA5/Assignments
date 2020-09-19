@@ -5,7 +5,8 @@ from torchvision import transforms
 from Assignments.Models.Model_Transformation import *
 
 # from transformations import *   
-
+ 
+    
 transformations = GetTransforms()
 train_transforms = transforms.Compose(transformations.trainparams())
 test_transforms = transforms.Compose(transformations.testparams())
