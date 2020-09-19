@@ -2,9 +2,7 @@
 from torchvision import datasets
 from torchvision import transforms
 
-
-from shrinkai.data_process.transformations import *
-
+from Assignments.Models.Model_Transformation import *
 
 # from transformations import *
 
